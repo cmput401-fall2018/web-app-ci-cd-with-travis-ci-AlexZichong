@@ -27,3 +27,40 @@ Not Found: /api/person/1/
 [11/Oct/2018 21:02:36] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
 [11/Oct/2018 21:02:36] "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
 [11/Oct/2018 21:02:36] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+/home/ubuntu/A3/env/lib/python3.5/site-packages/rest_framework/pagination.py:198: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'api.models.Person'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[11/Oct/2018 21:09:04] "GET /api/person/ HTTP/1.1" 200 7889
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[11/Oct/2018 21:09:04] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[11/Oct/2018 21:09:09] "GET /api/ HTTP/1.1" 200 5284
+Not Found: /api/person/1/
+[11/Oct/2018 21:17:41] "GET /api/person/1/ HTTP/1.1" 404 7675
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[11/Oct/2018 21:17:41] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[11/Oct/2018 21:17:44] "GET / HTTP/1.1" 200 1258
+Not Found: /api/person/1/
+[11/Oct/2018 21:17:44] "GET /api/person/1/ HTTP/1.1" 404 98
+Not Found: /api/person/1/
+[11/Oct/2018 21:17:51] "GET /api/person/1/ HTTP/1.1" 404 7675
+Not Found: /api/person/1/
+[11/Oct/2018 21:17:52] "GET /api/person/1/ HTTP/1.1" 404 98
