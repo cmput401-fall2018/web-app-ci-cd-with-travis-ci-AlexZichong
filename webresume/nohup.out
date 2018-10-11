@@ -1,0 +1,29 @@
+[11/Oct/2018 20:21:42] "GET / HTTP/1.1" 200 1137
+Not Found: /favicon.ico
+[11/Oct/2018 20:21:45] "GET /favicon.ico HTTP/1.1" 404 2549
+[11/Oct/2018 20:53:38] "GET / HTTP/1.1" 200 1137
+Not Found: /favicon.ico
+[11/Oct/2018 20:53:38] "GET /favicon.ico HTTP/1.1" 404 2549
+Not Found: /hello-world
+[11/Oct/2018 20:53:48] "GET /hello-world HTTP/1.1" 404 2549
+Not Found: /hello-world.txt]
+[11/Oct/2018 20:53:54] "GET /hello-world.txt] HTTP/1.1" 404 2566
+[11/Oct/2018 20:53:58] "GET /hello-world.txt HTTP/1.1" 200 11
+[11/Oct/2018 20:54:21] "GET /image.jpg HTTP/1.1" 200 44969
+[11/Oct/2018 20:54:36] "GET /hello-world.txt HTTP/1.1" 200 11
+[11/Oct/2018 21:01:56] "GET / HTTP/1.1" 200 1137
+[11/Oct/2018 21:02:36] "GET /api/person/1 HTTP/1.1" 301 0
+Not Found: /api/person/1/
+[11/Oct/2018 21:02:36] "GET /api/person/1/ HTTP/1.1" 404 7675
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[11/Oct/2018 21:02:36] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
