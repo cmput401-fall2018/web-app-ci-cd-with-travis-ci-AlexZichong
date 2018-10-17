@@ -404,3 +404,7 @@ Not Found: /favicon.ico
 [17/Oct/2018 19:28:34] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
 [17/Oct/2018 19:28:34] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
 [17/Oct/2018 19:32:13] "GET /admin/ HTTP/1.1" 200 4024
+  File "./manage.py", line 14
+    ) from exc
+         ^
+SyntaxError: invalid syntax
