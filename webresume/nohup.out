@@ -404,3 +404,36 @@ Not Found: /favicon.ico
 [17/Oct/2018 19:28:34] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
 [17/Oct/2018 19:28:34] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
 [17/Oct/2018 19:32:13] "GET /admin/ HTTP/1.1" 200 4024
+[17/Oct/2018 19:41:57] "GET /image.jpg HTTP/1.1" 200 44969
+Not Found: //hello-world.txt
+[17/Oct/2018 19:42:17] "GET //hello-world.txt HTTP/1.1" 404 2564
+[17/Oct/2018 19:42:39] "GET /hello-world.txt HTTP/1.1" 200 11
+Not Found: /person/q
+[17/Oct/2018 19:44:54] "GET /person/q HTTP/1.1" 404 2540
+Not Found: /person/1
+[17/Oct/2018 19:45:00] "GET /person/1 HTTP/1.1" 404 2540
+Not Found: /1
+[17/Oct/2018 19:45:03] "GET /1 HTTP/1.1" 404 2519
+Not Found: /admin/1
+[17/Oct/2018 19:45:16] "GET /admin/1 HTTP/1.1" 404 4437
+[17/Oct/2018 19:45:59] "GET /api/person/1 HTTP/1.1" 301 0
+[17/Oct/2018 19:45:59] "GET /api/person/1/ HTTP/1.1" 200 5686
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[17/Oct/2018 19:45:59] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[17/Oct/2018 20:45:24] "GET / HTTP/1.1" 200 1258
+[17/Oct/2018 20:45:24] "GET /api/person/1/ HTTP/1.1" 200 197
+Not Found: /favicon.ico
+[17/Oct/2018 20:45:24] "GET /favicon.ico HTTP/1.1" 404 2549
+Not Found: /favicon.ico
+[17/Oct/2018 20:45:24] "GET /favicon.ico HTTP/1.1" 404 2549
+[17/Oct/2018 20:47:36] "GET / HTTP/1.1" 200 1258
+[17/Oct/2018 20:47:36] "GET /api/person/1/ HTTP/1.1" 200 197
