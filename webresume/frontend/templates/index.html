@@ -1,41 +1,66 @@
-<!doctype html>
 
+<!doctype html>
 <html lang="en">
+{% load staticfiles %}
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <title>Insert Title Here</title>
+  <title>Alex Yu</title>
 
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <!-- <link rel="stylesheet" href="style.css"> -->
 
 </head>
 
 <body>
-  <h1 id="name">Name</h1>
-  <p id="about">About</p>
-  <p id="education">Education</p>
-  <p id="skills">Skills</p>
-  <p id="work">Work</p>
-  <p id="contact">Contact</p>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>
-  $(window).on('load', function(){
-     // change the URL to your server URL here
-     $.getJSON("http://199.116.235.96:8000/api/person/1/", function (data) {
-          $("#name").text(data.data.attributes.name);
-          $("#about").text(data.data.attributes.about);
-          $("#education").text(data.data.attributes.education);
-          $("#skills").text(data.data.attributes.skills);
-          $("#work").text(data.data.attributes.work);
-          $("#contact").text(data.data.attributes.contact); 
-          // Complete consuming the API data and updating the work and contact sections
-          // HINT: look at the above lines, jquery documentation, see what is the object returned
-     
-     
 
-     });
-  });
-  </script>
-</body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class='container'>
+        <a class="navbar-brand" href="{% url 'home'%}">Alex Yu</a>
+      </div>
+    </nav>
+  </header>
+
+      <h1 id="name">Name</h1>
+      <p id="about">About</p>
+      <p id="education">Education</p>
+      <p id="skills">Skills</p>
+      <p id="work">Work</p>
+      <p id="contact">Contact</p>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script>
+      $(window).on('load', function(){
+         // change the URL to your server URL here
+         $.getJSON("http://199.116.235.96:8000/api/person/1/", function (data) {
+              $("#name").text(data.data.attributes.name);
+              $("#about").text(data.data.attributes.about);
+              $("#education").text(data.data.attributes.education);
+              $("#skills").text(data.data.attributes.skills);
+              $("#work").text(data.data.attributes.work);
+              $("#contact").text(data.data.attributes.contact);
+              // Complete consuming the API data and updating the work and contact sections
+              // HINT: look at the above lines, jquery documentation, see what is the object returned
+
+
+
+         });
+      });
+      </script>
+    </body>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  </body>
 </html>
