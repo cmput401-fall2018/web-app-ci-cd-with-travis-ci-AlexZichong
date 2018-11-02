@@ -2,8 +2,23 @@ language: python
 python:
   - "3.6"
 # command to install dependencies
+addons:
+  chrome: stable
+
+env:
+  - PATH=$PATH:/usr/lib/chromium-browser/ DISPLAY=:99.0 CHROME_BIN=/usr/bin/google-chrome
+
+
 install:
+  - sudo apt-get update
+  - sudo apt-get install chromium-chromedriver
+  - sh -e /etc/init.d/xvfb start
   - pip install -r requirements.txt
+  - python webresume/manage.py migrate
+  - python webresume/manage.py runserver &
+  
 # command to run tests
 script:
   - pytest
+
+
