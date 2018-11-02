@@ -6,11 +6,10 @@ class Service():
     # NOTE: You do not need to modify this method!
     # Mock it instead
     def bad_random():
-        return random.randint(0, 10)
-        # file = open('/Users/dchui1/datafile', 'r')
-        # numberStrings = file.readlines()
-        # numbers = [int(x) for x in numberStrings]
-        # return random.randint(0, len(numberStrings)-1)
+        file = open('/Users/dchui1/datafile', 'r')
+        numberStrings = file.readlines()
+        numbers = [int(x) for x in numberStrings]
+        return random.randint(0, len(numberStrings)-1)
 
     # Test this
     def divide(self, y):
