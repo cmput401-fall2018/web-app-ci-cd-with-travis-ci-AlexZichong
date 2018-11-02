@@ -16,8 +16,7 @@ install:
   - pip install -r requirements.txt
   - python webresume/manage.py migrate
   - python webresume/manage.py runserver &
-  - pip3 install selenium
-  - pip3 install mock
+
 
 # command to run tests
 script:
