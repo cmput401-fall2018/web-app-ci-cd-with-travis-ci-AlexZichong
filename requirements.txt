@@ -5,7 +5,7 @@ attrs==18.2.0
 autopep8==1.4.2
 cffi==1.11.5
 cryptography==2.3.1
-Django==2.1.1
+Django==2.2.24
 django-filter==2.0.0
 djangorestframework==3.8.2
 djangorestframework-jsonapi==2.6.0
